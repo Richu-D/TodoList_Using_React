@@ -23,7 +23,6 @@ function toggletodo(id){
 function deleteSingleItem(id){
 const newTodos = [...todos]
 setTodos(newTodos.filter(todo => todo.id!=id))
-console.log(id)
 }
 
 
